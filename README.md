@@ -21,7 +21,8 @@ Write a short lesson on any topic of your choosing in markdown format. Your less
 - Code
 - Code blocks
 - Links
-  Here are a couple of resources to help you write in markdown.
+
+Here are a couple of resources to help you write in markdown.
 
 1. [Markdown guide](https://www.markdownguide.org/basic-syntax)
 2. [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -34,7 +35,7 @@ In order to do so, we want our data in a more relevant json format. Have a look 
 ## Part 3 - Party bag (database) to store our treats (json)
 
 Now we have some parsed data, we need a way for it to persist so we can access the lesson whenever we like.
-The lesson data should be stored in a postgres database and the json data itself can be stored in a [postgres json column](https://www.postgresql.org/docs/current/datatype-json.html)
+The lesson data should be stored in a postgres database and the json data itself can be stored in a [postgres json column](https://www.postgresql.org/docs/current/datatype-json.html).
 
 You'll need to write a seed to populate the database with your lesson data.
 
@@ -46,11 +47,11 @@ Next up is making an API to serve up your lesson data. Write an express server t
 
 Now that your lesson data is available to the world it's time to write a front end for it. This should be done in React and you'll need to design some components that render your lesson in a readable manner.
 
-The UI of these components is essential to the success of the app so we would like you to build your components using [Storybook](https://storybook.js.org/)
+The UI of these components is essential to the success of the app so we would like you to build your components using [Storybook](https://storybook.js.org/).
 
 Once you are happy with their design then use them in an App to see your lesson in all it's glory.
 
-## Advanced Party tricks
+## Advanced party tricks
 
 If you've got time add some additional features to your project to make it more flexible. Take a look at the following features:
 
