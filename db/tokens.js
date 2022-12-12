@@ -7,7 +7,7 @@ function getTokens() {
       return marked.lexer(file);
     })
     .then((lexedFile) => {
-      console.log(lexedFile[5]);
+      // console.log(lexedFile[5]);
       return lexedFile;
     });
 }

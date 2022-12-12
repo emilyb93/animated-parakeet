@@ -5,8 +5,8 @@ async function seed(tokens) {
   await db.query(
     "CREATE TABLE lessons_content (uid SERIAL PRIMARY KEY, content JSON)"
   );
+
+  await db.query(`INSERT INTO lessons_content (content) VALUES($1)`, [tokens]);
 }
 
-seed().then(() => {
-  db.end();
-});
+module.exports = seed;
