@@ -1,0 +1,23 @@
+{
+  "name": "team-proj-pass-the-parsed-cell",
+  "version": "1.0.0",
+  "description": "Welcome to Project Phase 🎉",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geo-Beard/team-proj-pass-the-parsed-cell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geo-Beard/team-proj-pass-the-parsed-cell/issues"
+  },
+  "homepage": "https://github.com/Geo-Beard/team-proj-pass-the-parsed-cell#readme",
+  "dependencies": {
+    "marked": "^4.2.4"
+  }
+}
