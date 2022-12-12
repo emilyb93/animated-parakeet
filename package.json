@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup-dbs": "psql -f ./db/setup.sql",
-    "seed": "node ./db/seeds/runSeed.js"
+    "seed": "node ./db/seeds/runSeed.js",
+    "listen": "nodemon listen.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   "homepage": "https://github.com/Geo-Beard/team-proj-pass-the-parsed-cell#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "marked": "^4.2.4",
     "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
