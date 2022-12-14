@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Geo-Beard/team-proj-pass-the-parsed-cell#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "marked": "^4.2.4",
